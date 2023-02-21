@@ -1,0 +1,138 @@
+		Token table!
+=======================================================
+#	        NAME                TYPE     VALUE LINE
+=======================================================
+1	     PROGRAM             program         0    1
+2	      Flyk22        program name         0    1
+3	           ;           separator         0    1
+4	       BEGIN               start         0    2
+5	         VAR            variable         0    3
+6	       INT16            var type         0    3
+7	           a          identifier         0    3
+8	           ,               comma         0    3
+9	           b          identifier         0    3
+10	           ,               comma         0    3
+11	           i          identifier         0    3
+12	           ,               comma         0    3
+13	           x          identifier         0    3
+14	           ,               comma         0    3
+15	           j          identifier         0    3
+16	           ;           separator         0    3
+17	        SCAN               input         0    5
+18	           (         left braket         0    5
+19	           a          identifier         0    5
+20	           )        right braket         0    5
+21	           ;           separator         0    5
+22	        SCAN               input         0    6
+23	           (         left braket         0    6
+24	           b          identifier         0    6
+25	           )        right braket         0    6
+26	           ;           separator         0    6
+27	           i          identifier         0    7
+28	          ->           new value         0    7
+29	           a          identifier         0    7
+30	           ;           separator         0    7
+31	       WHILE               while         0    8
+32	           (         left braket         0    8
+33	           (         left braket         0    8
+34	           i          identifier         0    8
+35	          <<                less         0    8
+36	           b          identifier         0    8
+37	           )        right braket         0    8
+38	          ||                  or         0    8
+39	           (         left braket         0    8
+40	           i          identifier         0    8
+41	          ==                 equ         0    8
+42	           b          identifier         0    8
+43	           )        right braket         0    8
+44	           )        right braket         0    8
+45	           ;           separator         0    8
+46	          DO                  do         0    9
+47	       BEGIN               start         0   10
+48	       PRINT              output         0   11
+49	           (         left braket         0   11
+50	           i          identifier         0   11
+51	           *                 mul         0   11
+52	           i          identifier         0   11
+53	           )        right braket         0   11
+54	           ;           separator         0   11
+55	           i          identifier         0   12
+56	          ->           new value         0   12
+57	           i          identifier         0   12
+58	           +                 add         0   12
+59	           1              number         1   12
+60	           ;           separator         0   12
+61	         END                 end         0   13
+62	           x          identifier         0   15
+63	          ->           new value         0   15
+64	           0              number         0   15
+65	           ;           separator         0   15
+66	           i          identifier         0   16
+67	          ->           new value         0   16
+68	           1              number         1   16
+69	           ;           separator         0   16
+70	       WHILE               while         0   18
+71	           (         left braket         0   18
+72	           (         left braket         0   18
+73	           i          identifier         0   18
+74	          <<                less         0   18
+75	           a          identifier         0   18
+76	           )        right braket         0   18
+77	          ||                  or         0   18
+78	           (         left braket         0   18
+79	           i          identifier         0   18
+80	          ==                 equ         0   18
+81	           a          identifier         0   18
+82	           )        right braket         0   18
+83	           )        right braket         0   18
+84	           ;           separator         0   18
+85	          DO                  do         0   19
+86	       BEGIN               start         0   20
+87	           j          identifier         0   21
+88	          ->           new value         0   21
+89	           1              number         1   21
+90	           ;           separator         0   21
+91	       WHILE               while         0   22
+92	           (         left braket         0   22
+93	           (         left braket         0   22
+94	           j          identifier         0   22
+95	          <<                less         0   22
+96	           b          identifier         0   22
+97	           )        right braket         0   22
+98	          ||                  or         0   22
+99	           (         left braket         0   22
+100	           j          identifier         0   22
+101	          ==                 equ         0   22
+102	           b          identifier         0   22
+103	           )        right braket         0   22
+104	           )        right braket         0   22
+105	           ;           separator         0   22
+106	          DO                  do         0   23
+107	       BEGIN               start         0   24
+108	           x          identifier         0   25
+109	          ->           new value         0   25
+110	           x          identifier         0   25
+111	           +                 add         0   25
+112	           1              number         1   25
+113	           ;           separator         0   25
+114	           j          identifier         0   26
+115	          ->           new value         0   26
+116	           j          identifier         0   26
+117	           +                 add         0   26
+118	           1              number         1   26
+119	           ;           separator         0   26
+120	         END                 end         0   27
+121	           i          identifier         0   28
+122	          ->           new value         0   28
+123	           i          identifier         0   28
+124	           +                 add         0   28
+125	           1              number         1   28
+126	           ;           separator         0   28
+127	         END                 end         0   29
+128	       PRINT              output         0   31
+129	           (         left braket         0   31
+130	           x          identifier         0   31
+131	           )        right braket         0   31
+132	           ;           separator         0   31
+133	         END                 end         0   32
+134	                     end of file         0   33
